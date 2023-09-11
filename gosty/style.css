@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.art{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    box-shadow: 
+    /*first row*/ -30px 0 #000, -20px 0 #000, -10px 0 #000, 10px 0 #000, 20px 0 #000, 30px 0 #000,
+    /*2nd row*/ -60px 10px #000,-50px 10px #000,-40px 10px #000, 40px 10px #000, 50px 10px #000,60px 10px #000,
+     /*3rd row*/ -70px 20px #000, 70px 20px #000,
+    /*4th row*/ -80px 30px #000, 80px 30px #000, 
+    /*5th row*/ -80px 40px #000,80px 40px #000,
+    /*6th row*/ -90px 50px #000,     /*left eye*/ -60px 50px #000, -50px 50px #000, -40px 50px #000,  /*left eye*/       /*right eye*/    -10px 50px #000, 0 50px #000, 10px 50px #000,   /*right eye*/                                                        90px 50px #000,
+    /*7th row*/ -90px 60px #000,     /*left eye*/ -70px 60px #000 ,-60px 60px #000, -50px 60px #000, -40px 60px #000 ,  /*left eye*/         /*right eye*/    -10px 60px #000, 0 60px #000, 10px 60px #000, 20px 60px #000,/*right eye*/                   90px 60px #000,
+    /*8th row*/ -90px 70px #000,     /*left eye*/ -70px 70px #000 ,-60px 70px #000, -50px 70px #000, -40px 70px #000 ,  /*left eye*/         /*right eye*/  -10px 70px #000, 0 70px #000, 10px 70px #000, 20px 70px #000,    /*right eye*/                 90px 70px #000,
+    /*9th row*/ -90px 80px #000,     /*left eye*/ -70px 80px#000, -60px 80px #000 , -50px 80px #000, -40px 80px #000 ,  /*left eye*/          /*right eye*/ -10px 80px #000, 0 80px #000, 10px 80px #000, 20px 80px #000,      /*right eye*/               90px 80px #000,
+    /*10th row*/ -90px 90px #000, /*left eye*/ -70px 90px #000, -60px 90px #000, -50px 90px #000,/*left eye*/                         /*right eye*/ 0 90px #000, 10px 90px #000, 20px 90px #000,    /*right eye*/                                              90px 90px #000,
+    /*11th row*/ -90px 100px #000,                                                                                                                                                                                                                                     90px 100px #000,
+    /*12th row*/ -90px 110px #000,  /*mouth*/ -30px 110px #000, -20px 110px #000,       /*hand*/  30px 110px #000,  40px 110px #000, /*hand*/                                                                                                                                                                                  90px 110px #000,
+    /*13th row*/ -100px 120px #000, -80px 120px #000,                                /*mouth*/  -30px 120px #000, -20px 120px #000,   /*hand*/  20px 120px #000, /*hand*/                                                                                                                               90px 120px #000,                                                                                                                           90px 110px #000,
+    /*14th row*/ -100px 130px #000, -80px 130px #000,                                                                                    /*hand*/  20px 130px #000, 40px 130px #000,/*hand*/                                                                                                                                                    100px 130px #000,
+    /*15th row*/ -100px 140px #000, -80px 140px green, -70px 140px #000,       /*hand*/  20px 140px #000,  30px 140px #000,  /*hand*/                                                                                                                                                                                                                                                                                                    110px 140px #000,
+    /*16th row*/  -90px 150px green,-80px 150px green,-70px 150px green, -60px 150px #000,      -30px 150px #000, -20px 150px #000, -10px 150px #000,
+    /*17th row*/ -90px 160px orange, -80px 160px orange, -70px 160px orange,    -50px 160px #000,  -40px 160px #000,0 160px #000, 10px 160px #000, 20px 160px #000, 30px 160px #000, 40px 160px #000,    50px 160px #000,60px 160px #000, 70px 160px #000, 80px 160px #000, 90px 160px #000,                                                                                                                                                                                                                                                                      100px 150px #000,                        
+    /*18th row*/ -100px 170px orange, -90px 170px orange,-80px 170px orange,-70px 170px orange,-60px 170px orange,
+    /*19th row*/ -100px 180px orange, -90px 180px #000, -80px 180px orange,-70px 180px #000,-60px 180px orange,
+    /*20th row*/ -90px 190px orange,-80px 190px orange,-70px 190px orange
+    /*21th row*/
+    ;
+}
